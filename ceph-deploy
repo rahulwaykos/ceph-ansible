@@ -1,0 +1,12 @@
+wget -q -O- 'https://download.ceph.com/keys/release.asc' | apt-key add -
+
+echo deb https://download.ceph.com/debian-luminous/ $(lsb_release -sc) main | sudo tee /etc/apt/sources.list.d/ceph.list
+
+apt update
+
+apt install ceph-deploy
+
+apt install ntp
+
+apt install openssh-server
+
