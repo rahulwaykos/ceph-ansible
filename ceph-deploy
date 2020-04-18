@@ -10,3 +10,16 @@ apt install ntp
 
 apt install openssh-server
 
+ceph-deploy new node01 
+
+ceph-deploy install master node01
+
+ceph-deploy mon create-initial
+
+ceph-deploy admin master node01
+
+ceph-deploy osd create --data /dev/vdb1 node01
+ceph-deploy osd create --data /dev/vg/lv1 master
+ceph-deploy osd create --data /dev/vg/lv2 master
+ceph-deploy osd create --data /dev/vg/lv3 master
+
