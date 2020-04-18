@@ -1,12 +1,12 @@
-yum install git ansible-2.4.* -y
+yum install git -y
 echo "
 [mons]
 master
-
+node01
 
 [osds]
 master
-
+node01
 
 [mgrs]
 master 
