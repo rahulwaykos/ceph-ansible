@@ -2,14 +2,14 @@ yum install git ansible-2.4.* -y
 echo "
 [mons]
 master
-node01
+
 
 [osds]
 master
-node01
+
 
 [mgrs]
-node01 
+master 
      " >> /etc/ansible/hosts
 
 git clone https://github.com/ceph/ceph-ansible.git
