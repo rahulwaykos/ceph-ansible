@@ -1,0 +1,12 @@
+
+echo "
+ceph_origin: repository
+ceph_repository: community
+ceph_stable_release: jewel
+public_network: "0.0.0.0"
+cluster_network: "0.0.0.0"
+monitor_interface: eth0
+devices:
+  - '/dev/vdb'
+osd_scenario: collocated
+      " >> ceph-ansible/group_vars/all.yml.sample
