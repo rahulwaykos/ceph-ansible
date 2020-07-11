@@ -69,7 +69,7 @@ ansible-playbook site.yml
 ```
 After the completion of playbook, Check health status of your Ceph cluster with ceph -s command
 
-![ceph-cluster.png]()
+![ceph-cluster.png](https://raw.githubusercontent.com/rahulwaykos/ceph-ansible/master/cluster.png)
 
 Note: Check if your hardware fullfills all requirements to run ceph cluster [here](https://docs.ceph.com/docs/master/start/hardware-recommendations/)
 
