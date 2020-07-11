@@ -1,5 +1,5 @@
 # Build Ceph Cluster with Ceph-Ansible
-![ceph-ansible]()
+![ceph-ansible](https://raw.githubusercontent.com/rahulwaykos/ceph-ansible/master/ceph-ansible.png)
 
 ## What is Ceph?
 Ceph is opensource software defined storage platform. Ceph provides reliable and clustered storage solution. It is highly scalable to exabytelevel, operates without single point of failure and it is free. It also provides combined interface for block, object and file-level storage.
