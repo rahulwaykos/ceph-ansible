@@ -65,7 +65,7 @@ OSD configuration was used to be set by selecting an OSD scenario and providing 
 
 Now we are all set to run playbook:
 ```
-ansible-playbook site.yml
+$ansible-playbook site.yml
 ```
 After the completion of playbook, Check health status of your Ceph cluster with ceph -s command
 
