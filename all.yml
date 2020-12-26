@@ -36,8 +36,8 @@ dummy:
 ceph_origin: repository 
 ceph_repository: community 
 ceph_stable_release: nautilus 
-public_network: "172.31.0.0/16" 
-cluster_network: "172.31.0.0/16" 
+public_network: "0.0.0.0/0" 
+cluster_network: "0.0.0.0/0" 
 monitor_interface: eth0 
 devices: 
   - '/dev/xvdb'
